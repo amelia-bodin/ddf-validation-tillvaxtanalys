@@ -1,0 +1,3958 @@
+{
+    "language": {
+        "name": "English",
+        "id": "en-US"
+    },
+    "created": "2026-10-19T11:48:55.840Z",
+    "resources": [
+        {
+            "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "concept_type"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "domain"
+                    },
+                    {
+                        "name": "description"
+                    },
+                    {
+                        "name": "name_short"
+                    },
+                    {
+                        "name": "name_catalog"
+                    },
+                    {
+                        "name": "tags"
+                    },
+                    {
+                        "name": "unit"
+                    }
+                ],
+                "primaryKey": [
+                    "concept"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--anv_omrade",
+            "path": "ddf--entities--anv_omrade.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "anv_omrade"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "anv_omrade"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--bransch_id",
+            "path": "ddf--entities--bransch_id.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "bransch_id"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "bransch_id"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geog--briics_mem",
+            "path": "ddf--entities--geog--briics_mem.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "briics_mem"
+                    },
+                    {
+                        "name": "is--briics_mem"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "rank"
+                    }
+                ],
+                "primaryKey": [
+                    "briics_mem"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geog--continent",
+            "path": "ddf--entities--geog--continent.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "continent"
+                    },
+                    {
+                        "name": "is--continent"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "rank"
+                    }
+                ],
+                "primaryKey": [
+                    "continent"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geog--country",
+            "path": "ddf--entities--geog--country.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "is--country"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "country"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geog--eu_mem",
+            "path": "ddf--entities--geog--eu_mem.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "eu_mem"
+                    },
+                    {
+                        "name": "is--eu_mem"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "rank"
+                    }
+                ],
+                "primaryKey": [
+                    "eu_mem"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geog--g7",
+            "path": "ddf--entities--geog--g7.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "g7"
+                    },
+                    {
+                        "name": "is--g7"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "rank"
+                    }
+                ],
+                "primaryKey": [
+                    "g7"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geog--nato",
+            "path": "ddf--entities--geog--nato.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "nato"
+                    },
+                    {
+                        "name": "is--nato"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "rank"
+                    }
+                ],
+                "primaryKey": [
+                    "nato"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geog--oecd_mem",
+            "path": "ddf--entities--geog--oecd_mem.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "oecd_mem"
+                    },
+                    {
+                        "name": "is--oecd_mem"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "rank"
+                    }
+                ],
+                "primaryKey": [
+                    "oecd_mem"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geog--sweden",
+            "path": "ddf--entities--geog--sweden.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sweden"
+                    },
+                    {
+                        "name": "is--sweden"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "rank"
+                    }
+                ],
+                "primaryKey": [
+                    "sweden"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--multidim_nace",
+            "path": "ddf--entities--multidim_nace.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "multidim_nace"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "multidim_nace"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--tag",
+            "path": "ddf--entities--tag.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "tag"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "parent"
+                    }
+                ],
+                "primaryKey": [
+                    "tag"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ae_cap_total--by--country--multidim_nace--year",
+            "path": "multidimensional\\ddf--datapoints--ae_cap_total--by--country--multidim_nace--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "multidim_nace"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ae_cap_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ae_cap_total--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ae_cap_total--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ae_cap_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ae_ton_total--by--country--multidim_nace--year",
+            "path": "multidimensional\\ddf--datapoints--ae_ton_total--by--country--multidim_nace--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "multidim_nace"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ae_ton_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ae_ton_total--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ae_ton_total--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ae_ton_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--berd_fou--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--berd_fou--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "berd_fou"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--brutto_fast--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--brutto_fast--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "brutto_fast"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--brutto_lop--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--brutto_lop--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "brutto_lop"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--chain_out_air--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--chain_out_air--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "chain_out_air"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--chain_out_land--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--chain_out_land--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "chain_out_land"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--chain_out_transp--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--chain_out_transp--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "chain_out_transp"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--chain_out_water--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--chain_out_water--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "chain_out_water"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--chain_value_air--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--chain_value_air--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "chain_value_air"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--chain_value_land--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--chain_value_land--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "chain_value_land"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--chain_value_transp--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--chain_value_transp--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "chain_value_transp"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--chain_value_water--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--chain_value_water--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "chain_value_water"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--dev_inv_cap--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--dev_inv_cap--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "dev_inv_cap"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--emp_fte_air--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--emp_fte_air--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "emp_fte_air"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--emp_fte_land--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--emp_fte_land--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "emp_fte_land"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--emp_fte_water--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--emp_fte_water--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "emp_fte_water"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_admin--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_admin--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_admin"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_arts--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_arts--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_arts"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_const--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_const--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_const"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_edu--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_edu--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_edu"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_elec--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_elec--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_elec"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_finance--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_finance--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_finance"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_food--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_food--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_food"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_health--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_health--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_health"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_info--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_info--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_info"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_manu--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_manu--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_manu"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_mine--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_mine--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_mine"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_prof--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_prof--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_prof"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_real--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_real--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_real"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_retail--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_retail--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_retail"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_transp--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_transp--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_transp"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ent_nr_water--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_water--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ent_nr_water"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--env_rnd--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--env_rnd--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "env_rnd"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--env_tax_gdp--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--env_tax_gdp--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "env_tax_gdp"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--env_tax_total--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--env_tax_total--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "env_tax_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--exp_total--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--exp_total--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "exp_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--foradl_fast_tot--by--country--multidim_nace--year",
+            "path": "multidimensional\\ddf--datapoints--foradl_fast_tot--by--country--multidim_nace--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "multidim_nace"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "foradl_fast_tot"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--foradl_fast_tot--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--foradl_fast_tot--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "foradl_fast_tot"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--foradl_lop_tot--by--country--multidim_nace--year",
+            "path": "multidimensional\\ddf--datapoints--foradl_lop_tot--by--country--multidim_nace--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "multidim_nace"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "foradl_lop_tot"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--foradl_lop_tot--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--foradl_lop_tot--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "foradl_lop_tot"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ggas_cap_air--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ggas_cap_air--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ggas_cap_air"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ggas_cap_land--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ggas_cap_land--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ggas_cap_land"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ggas_cap_water--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ggas_cap_water--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ggas_cap_water"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--imp_total--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--imp_total--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "imp_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--kem_inb--by--country--bransch_id--year",
+            "path": "multidimensional\\ddf--datapoints--kem_inb--by--country--bransch_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "bransch_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "kem_inb"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "bransch_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--kem_inb--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--kem_inb--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "kem_inb"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--loner_lop_tot--by--country--multidim_nace--year",
+            "path": "multidimensional\\ddf--datapoints--loner_lop_tot--by--country--multidim_nace--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "multidim_nace"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "loner_lop_tot"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--loner_lop_tot--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--loner_lop_tot--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "loner_lop_tot"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--out_gdp_total--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--out_gdp_total--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "out_gdp_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--out_mil_chain--by--country--multidim_nace--year",
+            "path": "multidimensional\\ddf--datapoints--out_mil_chain--by--country--multidim_nace--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "multidim_nace"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "out_mil_chain"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--out_mil_chain--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--out_mil_chain--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "out_mil_chain"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--out_mil_current--by--country--multidim_nace--year",
+            "path": "multidimensional\\ddf--datapoints--out_mil_current--by--country--multidim_nace--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "multidim_nace"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "out_mil_current"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--out_mil_current--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--out_mil_current--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "out_mil_current"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_ffuel_tax--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--total_ffuel_tax--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_ffuel_tax"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_fte_agri--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--total_fte_agri--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_fte_agri"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_fte_const--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--total_fte_const--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_fte_const"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_fte_elec--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--total_fte_elec--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_fte_elec"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_fte_mine--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--total_fte_mine--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_fte_mine"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_fte_serv--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--total_fte_serv--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_fte_serv"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_fte_total--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--total_fte_total--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_fte_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--utslapp_anv--by--country--anv_omrade--year",
+            "path": "multidimensional\\ddf--datapoints--utslapp_anv--by--country--anv_omrade--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "anv_omrade"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "utslapp_anv"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "anv_omrade",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--utslapp_anv--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--utslapp_anv--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "utslapp_anv"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--utslapp_kons--by--country--bransch_id--year",
+            "path": "multidimensional\\ddf--datapoints--utslapp_kons--by--country--bransch_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "bransch_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "utslapp_kons"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "bransch_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--utslapp_kons--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--utslapp_kons--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "utslapp_kons"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--utslapp_prod--by--country--bransch_id--year",
+            "path": "multidimensional\\ddf--datapoints--utslapp_prod--by--country--bransch_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "bransch_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "utslapp_prod"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "bransch_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--utslapp_prod--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--utslapp_prod--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "utslapp_prod"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--val_chain_total--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--val_chain_total--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "val_chain_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--val_gdp_total--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--val_gdp_total--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "val_gdp_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--val_mil_agri--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--val_mil_agri--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "val_mil_agri"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--val_mil_const--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--val_mil_const--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "val_mil_const"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--val_mil_elec--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--val_mil_elec--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "val_mil_elec"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--val_mil_mine--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--val_mil_mine--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "val_mil_mine"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--val_mil_serv--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--val_mil_serv--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "val_mil_serv"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--val_mil_total--by--country--year",
+            "path": "ddf--datapoints\\ddf--datapoints--val_mil_total--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "val_mil_total"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        }
+    ],
+    "ddfSchema": {
+        "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "concept_type",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "description",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "domain",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name_catalog",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name_short",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "tags",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "unit",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            }
+        ],
+        "entities": [
+            {
+                "primaryKey": [
+                    "anv_omrade"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--anv_omrade"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "bransch_id"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--bransch_id"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "briics_mem"
+                ],
+                "value": "is--briics_mem",
+                "resources": [
+                    "ddf--entities--geog--briics_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "briics_mem"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geog--briics_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "briics_mem"
+                ],
+                "value": "rank",
+                "resources": [
+                    "ddf--entities--geog--briics_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "continent"
+                ],
+                "value": "is--continent",
+                "resources": [
+                    "ddf--entities--geog--continent"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "continent"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geog--continent"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "continent"
+                ],
+                "value": "rank",
+                "resources": [
+                    "ddf--entities--geog--continent"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "is--country",
+                "resources": [
+                    "ddf--entities--geog--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geog--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "eu_mem"
+                ],
+                "value": "is--eu_mem",
+                "resources": [
+                    "ddf--entities--geog--eu_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "eu_mem"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geog--eu_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "eu_mem"
+                ],
+                "value": "rank",
+                "resources": [
+                    "ddf--entities--geog--eu_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "g7"
+                ],
+                "value": "is--g7",
+                "resources": [
+                    "ddf--entities--geog--g7"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "g7"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geog--g7"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "g7"
+                ],
+                "value": "rank",
+                "resources": [
+                    "ddf--entities--geog--g7"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "is--briics_mem",
+                "resources": [
+                    "ddf--entities--geog--briics_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "is--continent",
+                "resources": [
+                    "ddf--entities--geog--continent"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "is--country",
+                "resources": [
+                    "ddf--entities--geog--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "is--eu_mem",
+                "resources": [
+                    "ddf--entities--geog--eu_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "is--g7",
+                "resources": [
+                    "ddf--entities--geog--g7"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "is--nato",
+                "resources": [
+                    "ddf--entities--geog--nato"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "is--oecd_mem",
+                "resources": [
+                    "ddf--entities--geog--oecd_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "is--sweden",
+                "resources": [
+                    "ddf--entities--geog--sweden"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geog--sweden",
+                    "ddf--entities--geog--oecd_mem",
+                    "ddf--entities--geog--nato",
+                    "ddf--entities--geog--g7",
+                    "ddf--entities--geog--eu_mem",
+                    "ddf--entities--geog--country",
+                    "ddf--entities--geog--continent",
+                    "ddf--entities--geog--briics_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "rank",
+                "resources": [
+                    "ddf--entities--geog--sweden",
+                    "ddf--entities--geog--oecd_mem",
+                    "ddf--entities--geog--nato",
+                    "ddf--entities--geog--g7",
+                    "ddf--entities--geog--eu_mem",
+                    "ddf--entities--geog--continent",
+                    "ddf--entities--geog--briics_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "multidim_nace"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--multidim_nace"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "nato"
+                ],
+                "value": "is--nato",
+                "resources": [
+                    "ddf--entities--geog--nato"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "nato"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geog--nato"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "nato"
+                ],
+                "value": "rank",
+                "resources": [
+                    "ddf--entities--geog--nato"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "oecd_mem"
+                ],
+                "value": "is--oecd_mem",
+                "resources": [
+                    "ddf--entities--geog--oecd_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "oecd_mem"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geog--oecd_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "oecd_mem"
+                ],
+                "value": "rank",
+                "resources": [
+                    "ddf--entities--geog--oecd_mem"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sweden"
+                ],
+                "value": "is--sweden",
+                "resources": [
+                    "ddf--entities--geog--sweden"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sweden"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geog--sweden"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sweden"
+                ],
+                "value": "rank",
+                "resources": [
+                    "ddf--entities--geog--sweden"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "tag"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--tag"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "tag"
+                ],
+                "value": "parent",
+                "resources": [
+                    "ddf--entities--tag"
+                ]
+            }
+        ],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "anv_omrade",
+                    "country",
+                    "year"
+                ],
+                "value": "utslapp_anv",
+                "resources": [
+                    "ddf--datapoints--utslapp_anv--by--country--anv_omrade--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "anv_omrade",
+                    "geog",
+                    "year"
+                ],
+                "value": "utslapp_anv",
+                "resources": [
+                    "ddf--datapoints--utslapp_anv--by--country--anv_omrade--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "bransch_id",
+                    "country",
+                    "year"
+                ],
+                "value": "kem_inb",
+                "resources": [
+                    "ddf--datapoints--kem_inb--by--country--bransch_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "bransch_id",
+                    "country",
+                    "year"
+                ],
+                "value": "utslapp_kons",
+                "resources": [
+                    "ddf--datapoints--utslapp_kons--by--country--bransch_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "bransch_id",
+                    "country",
+                    "year"
+                ],
+                "value": "utslapp_prod",
+                "resources": [
+                    "ddf--datapoints--utslapp_prod--by--country--bransch_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "bransch_id",
+                    "geog",
+                    "year"
+                ],
+                "value": "kem_inb",
+                "resources": [
+                    "ddf--datapoints--kem_inb--by--country--bransch_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "bransch_id",
+                    "geog",
+                    "year"
+                ],
+                "value": "utslapp_kons",
+                "resources": [
+                    "ddf--datapoints--utslapp_kons--by--country--bransch_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "bransch_id",
+                    "geog",
+                    "year"
+                ],
+                "value": "utslapp_prod",
+                "resources": [
+                    "ddf--datapoints--utslapp_prod--by--country--bransch_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "ae_cap_total",
+                "resources": [
+                    "ddf--datapoints--ae_cap_total--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "ae_ton_total",
+                "resources": [
+                    "ddf--datapoints--ae_ton_total--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "foradl_fast_tot",
+                "resources": [
+                    "ddf--datapoints--foradl_fast_tot--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "foradl_lop_tot",
+                "resources": [
+                    "ddf--datapoints--foradl_lop_tot--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "loner_lop_tot",
+                "resources": [
+                    "ddf--datapoints--loner_lop_tot--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "out_mil_chain",
+                "resources": [
+                    "ddf--datapoints--out_mil_chain--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "out_mil_current",
+                "resources": [
+                    "ddf--datapoints--out_mil_current--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ae_cap_total",
+                "resources": [
+                    "ddf--datapoints--ae_cap_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ae_ton_total",
+                "resources": [
+                    "ddf--datapoints--ae_ton_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "berd_fou",
+                "resources": [
+                    "ddf--datapoints--berd_fou--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "brutto_fast",
+                "resources": [
+                    "ddf--datapoints--brutto_fast--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "brutto_lop",
+                "resources": [
+                    "ddf--datapoints--brutto_lop--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "chain_out_air",
+                "resources": [
+                    "ddf--datapoints--chain_out_air--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "chain_out_land",
+                "resources": [
+                    "ddf--datapoints--chain_out_land--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "chain_out_transp",
+                "resources": [
+                    "ddf--datapoints--chain_out_transp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "chain_out_water",
+                "resources": [
+                    "ddf--datapoints--chain_out_water--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "chain_value_air",
+                "resources": [
+                    "ddf--datapoints--chain_value_air--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "chain_value_land",
+                "resources": [
+                    "ddf--datapoints--chain_value_land--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "chain_value_transp",
+                "resources": [
+                    "ddf--datapoints--chain_value_transp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "chain_value_water",
+                "resources": [
+                    "ddf--datapoints--chain_value_water--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "dev_inv_cap",
+                "resources": [
+                    "ddf--datapoints--dev_inv_cap--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "emp_fte_air",
+                "resources": [
+                    "ddf--datapoints--emp_fte_air--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "emp_fte_land",
+                "resources": [
+                    "ddf--datapoints--emp_fte_land--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "emp_fte_water",
+                "resources": [
+                    "ddf--datapoints--emp_fte_water--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_admin",
+                "resources": [
+                    "ddf--datapoints--ent_nr_admin--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_arts",
+                "resources": [
+                    "ddf--datapoints--ent_nr_arts--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_const",
+                "resources": [
+                    "ddf--datapoints--ent_nr_const--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_edu",
+                "resources": [
+                    "ddf--datapoints--ent_nr_edu--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_elec",
+                "resources": [
+                    "ddf--datapoints--ent_nr_elec--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_finance",
+                "resources": [
+                    "ddf--datapoints--ent_nr_finance--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_food",
+                "resources": [
+                    "ddf--datapoints--ent_nr_food--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_health",
+                "resources": [
+                    "ddf--datapoints--ent_nr_health--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_info",
+                "resources": [
+                    "ddf--datapoints--ent_nr_info--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_manu",
+                "resources": [
+                    "ddf--datapoints--ent_nr_manu--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_mine",
+                "resources": [
+                    "ddf--datapoints--ent_nr_mine--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_prof",
+                "resources": [
+                    "ddf--datapoints--ent_nr_prof--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_real",
+                "resources": [
+                    "ddf--datapoints--ent_nr_real--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_retail",
+                "resources": [
+                    "ddf--datapoints--ent_nr_retail--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_transp",
+                "resources": [
+                    "ddf--datapoints--ent_nr_transp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ent_nr_water",
+                "resources": [
+                    "ddf--datapoints--ent_nr_water--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "env_rnd",
+                "resources": [
+                    "ddf--datapoints--env_rnd--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "env_tax_gdp",
+                "resources": [
+                    "ddf--datapoints--env_tax_gdp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "env_tax_total",
+                "resources": [
+                    "ddf--datapoints--env_tax_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "exp_total",
+                "resources": [
+                    "ddf--datapoints--exp_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "foradl_fast_tot",
+                "resources": [
+                    "ddf--datapoints--foradl_fast_tot--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "foradl_lop_tot",
+                "resources": [
+                    "ddf--datapoints--foradl_lop_tot--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ggas_cap_air",
+                "resources": [
+                    "ddf--datapoints--ggas_cap_air--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ggas_cap_land",
+                "resources": [
+                    "ddf--datapoints--ggas_cap_land--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ggas_cap_water",
+                "resources": [
+                    "ddf--datapoints--ggas_cap_water--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "imp_total",
+                "resources": [
+                    "ddf--datapoints--imp_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "kem_inb",
+                "resources": [
+                    "ddf--datapoints--kem_inb--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "loner_lop_tot",
+                "resources": [
+                    "ddf--datapoints--loner_lop_tot--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "out_gdp_total",
+                "resources": [
+                    "ddf--datapoints--out_gdp_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "out_mil_chain",
+                "resources": [
+                    "ddf--datapoints--out_mil_chain--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "out_mil_current",
+                "resources": [
+                    "ddf--datapoints--out_mil_current--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_ffuel_tax",
+                "resources": [
+                    "ddf--datapoints--total_ffuel_tax--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_fte_agri",
+                "resources": [
+                    "ddf--datapoints--total_fte_agri--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_fte_const",
+                "resources": [
+                    "ddf--datapoints--total_fte_const--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_fte_elec",
+                "resources": [
+                    "ddf--datapoints--total_fte_elec--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_fte_mine",
+                "resources": [
+                    "ddf--datapoints--total_fte_mine--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_fte_serv",
+                "resources": [
+                    "ddf--datapoints--total_fte_serv--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "total_fte_total",
+                "resources": [
+                    "ddf--datapoints--total_fte_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "utslapp_anv",
+                "resources": [
+                    "ddf--datapoints--utslapp_anv--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "utslapp_kons",
+                "resources": [
+                    "ddf--datapoints--utslapp_kons--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "utslapp_prod",
+                "resources": [
+                    "ddf--datapoints--utslapp_prod--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "val_chain_total",
+                "resources": [
+                    "ddf--datapoints--val_chain_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "val_gdp_total",
+                "resources": [
+                    "ddf--datapoints--val_gdp_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "val_mil_agri",
+                "resources": [
+                    "ddf--datapoints--val_mil_agri--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "val_mil_const",
+                "resources": [
+                    "ddf--datapoints--val_mil_const--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "val_mil_elec",
+                "resources": [
+                    "ddf--datapoints--val_mil_elec--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "val_mil_mine",
+                "resources": [
+                    "ddf--datapoints--val_mil_mine--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "val_mil_serv",
+                "resources": [
+                    "ddf--datapoints--val_mil_serv--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "val_mil_total",
+                "resources": [
+                    "ddf--datapoints--val_mil_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "ae_cap_total",
+                "resources": [
+                    "ddf--datapoints--ae_cap_total--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "ae_ton_total",
+                "resources": [
+                    "ddf--datapoints--ae_ton_total--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "foradl_fast_tot",
+                "resources": [
+                    "ddf--datapoints--foradl_fast_tot--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "foradl_lop_tot",
+                "resources": [
+                    "ddf--datapoints--foradl_lop_tot--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "loner_lop_tot",
+                "resources": [
+                    "ddf--datapoints--loner_lop_tot--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "out_mil_chain",
+                "resources": [
+                    "ddf--datapoints--out_mil_chain--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "multidim_nace",
+                    "year"
+                ],
+                "value": "out_mil_current",
+                "resources": [
+                    "ddf--datapoints--out_mil_current--by--country--multidim_nace--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ae_cap_total",
+                "resources": [
+                    "ddf--datapoints--ae_cap_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ae_ton_total",
+                "resources": [
+                    "ddf--datapoints--ae_ton_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "berd_fou",
+                "resources": [
+                    "ddf--datapoints--berd_fou--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "brutto_fast",
+                "resources": [
+                    "ddf--datapoints--brutto_fast--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "brutto_lop",
+                "resources": [
+                    "ddf--datapoints--brutto_lop--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "chain_out_air",
+                "resources": [
+                    "ddf--datapoints--chain_out_air--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "chain_out_land",
+                "resources": [
+                    "ddf--datapoints--chain_out_land--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "chain_out_transp",
+                "resources": [
+                    "ddf--datapoints--chain_out_transp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "chain_out_water",
+                "resources": [
+                    "ddf--datapoints--chain_out_water--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "chain_value_air",
+                "resources": [
+                    "ddf--datapoints--chain_value_air--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "chain_value_land",
+                "resources": [
+                    "ddf--datapoints--chain_value_land--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "chain_value_transp",
+                "resources": [
+                    "ddf--datapoints--chain_value_transp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "chain_value_water",
+                "resources": [
+                    "ddf--datapoints--chain_value_water--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "dev_inv_cap",
+                "resources": [
+                    "ddf--datapoints--dev_inv_cap--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "emp_fte_air",
+                "resources": [
+                    "ddf--datapoints--emp_fte_air--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "emp_fte_land",
+                "resources": [
+                    "ddf--datapoints--emp_fte_land--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "emp_fte_water",
+                "resources": [
+                    "ddf--datapoints--emp_fte_water--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_admin",
+                "resources": [
+                    "ddf--datapoints--ent_nr_admin--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_arts",
+                "resources": [
+                    "ddf--datapoints--ent_nr_arts--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_const",
+                "resources": [
+                    "ddf--datapoints--ent_nr_const--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_edu",
+                "resources": [
+                    "ddf--datapoints--ent_nr_edu--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_elec",
+                "resources": [
+                    "ddf--datapoints--ent_nr_elec--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_finance",
+                "resources": [
+                    "ddf--datapoints--ent_nr_finance--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_food",
+                "resources": [
+                    "ddf--datapoints--ent_nr_food--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_health",
+                "resources": [
+                    "ddf--datapoints--ent_nr_health--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_info",
+                "resources": [
+                    "ddf--datapoints--ent_nr_info--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_manu",
+                "resources": [
+                    "ddf--datapoints--ent_nr_manu--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_mine",
+                "resources": [
+                    "ddf--datapoints--ent_nr_mine--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_prof",
+                "resources": [
+                    "ddf--datapoints--ent_nr_prof--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_real",
+                "resources": [
+                    "ddf--datapoints--ent_nr_real--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_retail",
+                "resources": [
+                    "ddf--datapoints--ent_nr_retail--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_transp",
+                "resources": [
+                    "ddf--datapoints--ent_nr_transp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ent_nr_water",
+                "resources": [
+                    "ddf--datapoints--ent_nr_water--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "env_rnd",
+                "resources": [
+                    "ddf--datapoints--env_rnd--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "env_tax_gdp",
+                "resources": [
+                    "ddf--datapoints--env_tax_gdp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "env_tax_total",
+                "resources": [
+                    "ddf--datapoints--env_tax_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "exp_total",
+                "resources": [
+                    "ddf--datapoints--exp_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "foradl_fast_tot",
+                "resources": [
+                    "ddf--datapoints--foradl_fast_tot--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "foradl_lop_tot",
+                "resources": [
+                    "ddf--datapoints--foradl_lop_tot--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ggas_cap_air",
+                "resources": [
+                    "ddf--datapoints--ggas_cap_air--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ggas_cap_land",
+                "resources": [
+                    "ddf--datapoints--ggas_cap_land--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ggas_cap_water",
+                "resources": [
+                    "ddf--datapoints--ggas_cap_water--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "imp_total",
+                "resources": [
+                    "ddf--datapoints--imp_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "kem_inb",
+                "resources": [
+                    "ddf--datapoints--kem_inb--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "loner_lop_tot",
+                "resources": [
+                    "ddf--datapoints--loner_lop_tot--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "out_gdp_total",
+                "resources": [
+                    "ddf--datapoints--out_gdp_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "out_mil_chain",
+                "resources": [
+                    "ddf--datapoints--out_mil_chain--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "out_mil_current",
+                "resources": [
+                    "ddf--datapoints--out_mil_current--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "total_ffuel_tax",
+                "resources": [
+                    "ddf--datapoints--total_ffuel_tax--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "total_fte_agri",
+                "resources": [
+                    "ddf--datapoints--total_fte_agri--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "total_fte_const",
+                "resources": [
+                    "ddf--datapoints--total_fte_const--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "total_fte_elec",
+                "resources": [
+                    "ddf--datapoints--total_fte_elec--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "total_fte_mine",
+                "resources": [
+                    "ddf--datapoints--total_fte_mine--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "total_fte_serv",
+                "resources": [
+                    "ddf--datapoints--total_fte_serv--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "total_fte_total",
+                "resources": [
+                    "ddf--datapoints--total_fte_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "utslapp_anv",
+                "resources": [
+                    "ddf--datapoints--utslapp_anv--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "utslapp_kons",
+                "resources": [
+                    "ddf--datapoints--utslapp_kons--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "utslapp_prod",
+                "resources": [
+                    "ddf--datapoints--utslapp_prod--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "val_chain_total",
+                "resources": [
+                    "ddf--datapoints--val_chain_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "val_gdp_total",
+                "resources": [
+                    "ddf--datapoints--val_gdp_total--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "val_mil_agri",
+                "resources": [
+                    "ddf--datapoints--val_mil_agri--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "val_mil_const",
+                "resources": [
+                    "ddf--datapoints--val_mil_const--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "val_mil_elec",
+                "resources": [
+                    "ddf--datapoints--val_mil_elec--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "val_mil_mine",
+                "resources": [
+                    "ddf--datapoints--val_mil_mine--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "val_mil_serv",
+                "resources": [
+                    "ddf--datapoints--val_mil_serv--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "val_mil_total",
+                "resources": [
+                    "ddf--datapoints--val_mil_total--by--country--year"
+                ]
+            }
+        ],
+        "synonyms": []
+    }
+}

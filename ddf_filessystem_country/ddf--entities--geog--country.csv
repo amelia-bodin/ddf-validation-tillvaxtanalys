@@ -1,0 +1,280 @@
+country,is--country,name
+alb,TRUE,Albania
+aut,TRUE,Austria
+bih,TRUE,Bosnia and Herzegovina
+bel,TRUE,Belgium
+bgr,TRUE,Bulgaria
+che,TRUE,Switzerland
+cyp,TRUE,Cyprus
+cze,TRUE,Czechia
+deu,TRUE,Germany
+dnk,TRUE,Denmark
+euro_twelve,TRUE,Euro area - 12 countries (2001-2006)
+euro,TRUE,Euro area (19 countries)
+euro_twenty,TRUE,Euro area – 20 countries (2023-2025)
+euro_twentyone,TRUE,Euro area – 21 countries (from 2026)
+est,TRUE,Estonia
+grc,TRUE,Greece
+esp,TRUE,Spain
+eu_three,TRUE,European Union - 27 countries (from 2020)
+fin,TRUE,Finland
+fra,TRUE,France
+hrv,TRUE,Croatia
+hun,TRUE,Hungary
+irl,TRUE,Ireland
+isl,TRUE,Iceland
+ita,TRUE,Italy
+lie,TRUE,Liechtenstein
+ltu,TRUE,Lithuania
+lux,TRUE,Luxembourg
+lva,TRUE,Latvia
+mne,TRUE,Montenegro
+mkd,TRUE,North Macedonia
+mlt,TRUE,Malta
+nld,TRUE,Netherlands
+nor,TRUE,Norway
+pol,TRUE,Poland
+prt,TRUE,Portugal
+rou,TRUE,Romania
+srb,TRUE,Serbia
+swe,TRUE,Sweden
+svn,TRUE,Slovenia
+svk,TRUE,Slovakia
+tur,TRUE,Türkiye
+ukr,TRUE,Ukraine
+and,TRUE,Andorra
+are,TRUE,United Arab Emirates
+arg,TRUE,Argentina
+arm,TRUE,Armenia
+atg,TRUE,Antigua and Barbuda
+aus,TRUE,Australia
+aze,TRUE,Azerbaijan
+bfa,TRUE,Burkina Faso
+bgd,TRUE,Bangladesh
+bhs,TRUE,Bahamas
+blr,TRUE,Belarus
+blz,TRUE,Belize
+bmu,TRUE,Bermuda
+bol,TRUE,Bolivia
+bra,TRUE,Brazil
+brb,TRUE,Barbados
+brn,TRUE,Brunei
+btn,TRUE,Bhutan
+bwa,TRUE,Botswana
+can,TRUE,Canada
+chl,TRUE,Chile
+chn,TRUE,China (People's Republic of)
+civ,TRUE,Côte d'Ivoire
+cmr,TRUE,Cameroon
+cod,TRUE,Democratic Republic of the Congo
+cog,TRUE,Congo
+col,TRUE,Colombia
+cpv,TRUE,Cabo Verde
+cri,TRUE,Costa Rica
+cub,TRUE,Cuba
+cym,TRUE,Cayman Islands
+dji,TRUE,Djibouti
+dom,TRUE,Dominican Republic
+dza,TRUE,Algeria
+ecu,TRUE,Ecuador
+egy,TRUE,Egypt
+eu,TRUE,EU27
+eu_one,TRUE,European Union (28 countries)
+fji,TRUE,Fiji
+gab,TRUE,Gabon
+gbr,TRUE,United Kingdom
+geo,TRUE,
+gha,TRUE,Ghana
+gin,TRUE,Guinea
+gmb,TRUE,Gambia
+gnq,TRUE,Equatorial Guinea
+grd,TRUE,Grenada
+gtm,TRUE,Guatemala
+guy,TRUE,Guyana
+hkg,TRUE,Hongkong
+hnd,TRUE,Honduras
+idn,TRUE,Indonesia
+ind,TRUE,India
+irn,TRUE,Iran
+isr,TRUE,Israel
+jam,TRUE,Jamaica
+jor,TRUE,Jordan
+jpn,TRUE,Japan
+kaz,TRUE,Kazakhstan
+ken,TRUE,Kenya
+kgz,TRUE,Kyrgyzstan
+khm,TRUE,Cambodia
+kor,TRUE,South Korea
+kwt,TRUE,Kuwait
+lao,TRUE,Laos
+lbn,TRUE,Lebanon
+lbr,TRUE,Liberia
+lca,TRUE,Saint Lucia
+lka,TRUE,Sri Lanka
+lso,TRUE,Lesotho
+mar,TRUE,Morocco
+mco,TRUE,Monaco
+mda,TRUE,Moldova
+mdg,TRUE,Madagascar
+mdv,TRUE,Maldives
+mex,TRUE,Mexico
+mhl,TRUE,Marshall Islands
+mli,TRUE,Mali
+mmr,TRUE,Myanmar
+mng,TRUE,Mongolia
+moz,TRUE,Mozambique
+mrt,TRUE,Mauritania
+mus,TRUE,Mauritius
+mwi,TRUE,Malawi
+mys,TRUE,Malaysia
+nam,TRUE,Namibia
+ner,TRUE,Niger
+nga,TRUE,Nigeria
+nic,TRUE,Nicaragua
+nru,TRUE,Nauru
+nzl,TRUE,New Zealand
+oecd_tot,TRUE,OECD - Total
+pak,TRUE,Pakistan
+pan,TRUE,Panama
+per,TRUE,Peru
+phl,TRUE,Philippines
+png,TRUE,Papua New Guinea
+pri,TRUE,Puerto Rico
+prk,TRUE,North Korea
+pry,TRUE,Paraguay
+rus,TRUE,Russia
+rwa,TRUE,Rwanda
+sau,TRUE,Saudi Arabia
+sen,TRUE,Senegal
+sgp,TRUE,Singapore
+slb,TRUE,Solomon Islands
+sle,TRUE,Sierra Leone
+slv,TRUE,El Salvador
+som,TRUE,Somalia
+sur,TRUE,Suriname
+swz,TRUE,Eswatini
+syc,TRUE,Seychelles
+tcd,TRUE,Chad
+tgo,TRUE,Togo
+tha,TRUE,Thailand
+ton,TRUE,Tonga
+tto,TRUE,Trinidad and Tobago
+tun,TRUE,Tunisia
+twn,TRUE,Taiwan (province of China)
+uga,TRUE,Uganda
+ury,TRUE,Uruguay
+usa,TRUE,United States
+uzb,TRUE,Uzbekistan
+ven,TRUE,Venezuela
+vnm,TRUE,Viet Nam
+wsm,TRUE,Samoa
+zaf,TRUE,South Africa
+zmb,TRUE,Zambia
+zwe,TRUE,Zimbabwe
+tot,TRUE,
+afg,TRUE,Afghanistan
+vir,TRUE,United States Virgin Islands
+usa_oc,TRUE,United States Oceania
+asm,TRUE,American Samoa
+ago,TRUE,Angola
+aia,TRUE,Anguilla
+ata,TRUE,Antarctica
+abw,TRUE,Aruba
+aus_oc,TRUE,Australian Oceania
+bhr,TRUE,Bahrain
+bel_lux,TRUE,Belgium and Luxembourg
+ben,TRUE,Benin
+bes,TRUE,Bonaire Sint Eustatius and Saba
+bouisl,TRUE,Bouvet Island
+iot,TRUE,British Indian Ocean Territory
+vgb,TRUE,British Virgin Islands
+bunk_third,TRUE,Bunkering and maintenance in trade with third country
+bunk_eu,TRUE,Bunkering and maintenance in trade within the EU
+bunk_main,TRUE,Bunkering and maintenance
+bdi,TRUE,Burundi
+caf,TRUE,Central African Republic
+ceu,TRUE,Ceuta
+ckk,TRUE,Cook Islands
+nld_curacao,TRUE,Curaçao
+fra_antarc,TRUE,French Southern and Antarctic Lands
+high_seas,TRUE,The High Seas
+dma,TRUE,Dominica
+unspec,TRUE,Unspecified countries and territories
+eri,TRUE,Eritrea
+eth,TRUE,Ethiopia
+unspec_eu,TRUE,Unspecified countries and territories in trade within the EU
+flk,TRUE,Falkland Islands
+guf,TRUE,French Guiana
+pyf,TRUE,French Polynesia
+fro,TRUE,Faroe Islands
+usa_minor_out_isl,TRUE,United States Minor Outlying Islands
+gib,TRUE,Gibraltar
+grl,TRUE,Greenland
+glp,TRUE,Guadeloupe
+gum,TRUE,Guam
+gnb,TRUE,Guinea-Bissau
+hti,TRUE,Haiti
+heard_a_mcd,TRUE,Heard and McDonald Islands
+vat,TRUE,Vatican City State
+unspec_third,TRUE,Unspecified countries and territories in trade with third country
+irq,TRUE,Iraq
+yem,TRUE,Yemen
+cxr,TRUE,Christmas Island
+cay,TRUE,Canary Islands
+kir,TRUE,Kiribati
+coc,TRUE,Cocos Islands
+def_unspec,TRUE,Countries and territories not specified for trade or defence reasons
+third_unspec,TRUE,Countries and territories not specified for trade or defence reasons in trade with third country
+eu_unspec,TRUE,Countries and territories not specified for trade or defence reasons in trade within the EU
+com,TRUE,Comoros
+kos,TRUE,Kosovo
+lby,TRUE,Libya
+mac,TRUE,Macau
+mtq,TRUE,Martinique
+myt,TRUE,Mayotte
+mel,TRUE,Melilla
+fsm,TRUE,Micronesia
+msr,TRUE,Montserrat
+ant,TRUE,Netherlands Antilles
+npl,TRUE,Nepal
+niu,TRUE,Niue
+mnp,TRUE,Northern Mariana Islands
+nfk,TRUE,Norfolk Island
+ncl,TRUE,New Caledonia
+nzl_oc,TRUE,New Zealand Oceania
+omn,TRUE,Oman
+plw,TRUE,Palau
+pse,TRUE,Palestine
+pcn,TRUE,Pitcairn Islands
+polar,TRUE,Polar Regions
+qat,TRUE,Qatar
+reu,TRUE,Reunion
+kna,TRUE,Saint Kitts and Nevis
+vct,TRUE,Saint Vincent and the Grenadines
+stbar,TRUE,Saint-Barthélemy
+spm,TRUE,Saint-Pierre-et-Miquelon
+smr,TRUE,San Marino
+shn,TRUE,Sankt Helena Ascension and Tristan da Cunha
+stp,TRUE,Sao Tome and Principe
+scg,TRUE,Serbia and Montenegro
+maf,TRUE,Sint-Maarten
+sdn,TRUE,Sudan
+sgero_a_ssandw,TRUE,South Georgia and the South Sandwich Islands
+ssd,TRUE,South Sudan
+syr,TRUE,Syrian Arab Republic
+tjk,TRUE,Tajikistan
+tza,TRUE,Tanzania
+tkl,TRUE,Tokelau
+tkm,TRUE,Turkmenistan
+tca,TRUE,Turks and Caicos Islands
+tuv,TRUE,Tuvalu
+vut,TRUE,Vanuatu
+wbg,TRUE,West Bank/Gaza Strip
+esh,TRUE,Western Sahara
+wlf,TRUE,Wallis and Futuna
+tls,TRUE,East Timor
+row_asia,TRUE,RoW Asia-Pacific Region
+row_europe,TRUE,RoW Europé
+row_africa,TRUE,RoW Africa
+row_america,TRUE,RoW America
+row_me,TRUE,RoW Middle East
