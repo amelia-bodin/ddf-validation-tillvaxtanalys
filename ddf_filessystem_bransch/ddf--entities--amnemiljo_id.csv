@@ -1,0 +1,17 @@
+amnemiljo_id,name
+ghg,växthusgaser: kiloton koldioxidekvivalenter
+co2,koldioxid (fossil): kiloton
+co2bio,koldioxid (biogen): kiloton
+so2,svaveldioxid: ton
+nox,kväveoxider: ton
+ch4,metan: ton
+co,kolmonoxid: ton
+n2o,dikväveoxid: ton
+nh3,ammoniak: ton
+nmvoc,flyktiga organiska ämnen (utan metan): ton
+pm10,partiklar <10µm: ton
+pm25,partiklar <2:5µm: ton
+tsp,partiklar alla : ton
+hfc,hydrofluorocarboner: ton koldioxidekvivalenter
+pfc,perfluorocarboner: ton koldioxidekvivalenter
+sf6,svavelhexafluorid: ton koldioxidekvivalenter

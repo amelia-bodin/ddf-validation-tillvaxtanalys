@@ -1,0 +1,4266 @@
+{
+    "language": {
+        "name": "English",
+        "id": "en-US"
+    },
+    "created": "2026-10-19T11:48:01.807Z",
+    "resources": [
+        {
+            "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "concept_type"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "domain"
+                    },
+                    {
+                        "name": "description"
+                    },
+                    {
+                        "name": "source_url"
+                    },
+                    {
+                        "name": "name_short"
+                    },
+                    {
+                        "name": "name_catalog"
+                    },
+                    {
+                        "name": "tags"
+                    },
+                    {
+                        "name": "unit"
+                    }
+                ],
+                "primaryKey": [
+                    "concept"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--amnemiljo_id",
+            "path": "ddf--entities--amnemiljo_id.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "amnemiljo_id"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "amnemiljo_id"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--avfallsslag_id",
+            "path": "ddf--entities--avfallsslag_id.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "avfallsslag_id"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "avfallsslag_id"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--fodelseregion_id",
+            "path": "ddf--entities--fodelseregion_id.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fodelseregion_id"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "fodelseregion_id"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geog--sni_grupp",
+            "path": "ddf--entities--geog--sni_grupp.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_grupp"
+                    },
+                    {
+                        "name": "is--sni_grupp"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "rank"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_grupp"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--geog--sni_id",
+            "path": "ddf--entities--geog--sni_id.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "is--sni_id"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--kon_id",
+            "path": "ddf--entities--kon_id.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kon_id"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "kon_id"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--miljoomrade_id",
+            "path": "ddf--entities--miljoomrade_id.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "miljoomrade_id"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "miljoomrade_id"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--ofarligtfarligt_id",
+            "path": "ddf--entities--ofarligtfarligt_id.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "ofarligtfarligt_id"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "ofarligtfarligt_id"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--region_id",
+            "path": "ddf--entities--region_id.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "region_id"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "region_id"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--tag",
+            "path": "ddf--entities--tag.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "tag"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "parent"
+                    }
+                ],
+                "primaryKey": [
+                    "tag"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--typanv_id",
+            "path": "ddf--entities--typanv_id.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "typanv_id"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "typanv_id"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--and_forb_inv--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--and_forb_inv--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "and_forb_inv"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--and_milj_ex--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--and_milj_ex--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "and_milj_ex"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--and_milj_tot--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--and_milj_tot--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "and_milj_tot"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ant_ans_kon--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ant_ans_kon--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ant_ans_kon"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ant_for_tot--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ant_for_tot--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ant_for_tot"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ant_forv_kvn_reg--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ant_forv_kvn_reg--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ant_forv_kvn_reg"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ant_forv_man_reg--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ant_forv_man_reg--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ant_forv_man_reg"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ant_forv_tot_reg--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ant_forv_tot_reg--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ant_forv_tot_reg"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ant_kem--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ant_kem--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ant_kem"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ant_kon--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ant_kon--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ant_kon"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ant_ny--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ant_ny--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ant_ny"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ant_syss_miljo--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ant_syss_miljo--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ant_syss_miljo"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--arb_tim--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--arb_tim--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "arb_tim"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--behand_inv--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--behand_inv--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "behand_inv"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--behand_inv_proc--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--behand_inv_proc--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "behand_inv_proc"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--bidr_egen_fou--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--bidr_egen_fou--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "bidr_egen_fou"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--bnp_fast--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--bnp_fast--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "bnp_fast"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--bnp_lop--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--bnp_lop--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "bnp_lop"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--bran_energi--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--bran_energi--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "bran_energi"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--co_skatt--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--co_skatt--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "co_skatt"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--el_energi--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--el_energi--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "el_energi"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--export--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--export--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "export"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ext_lop_kost_miljo--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ext_lop_kost_miljo--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ext_lop_kost_miljo"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ext_lop_kost_miljo_proc--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ext_lop_kost_miljo_proc--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ext_lop_kost_miljo_proc"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--flygskatt--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--flygskatt--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "flygskatt"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--foradl--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--foradl--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "foradl"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--foradl_bio--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--foradl_bio--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "foradl_bio"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--forb_fos--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--forb_fos--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "forb_fos"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--forb_inv_milj--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--forb_inv_milj--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "forb_inv_milj"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--forbr_bio--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--forbr_bio--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "forbr_bio"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--fordonskatt--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--fordonskatt--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "fordonskatt"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--foreb_inv--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--foreb_inv--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "foreb_inv"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--forv_kvn--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--forv_kvn--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "forv_kvn"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--forv_kvn_bio--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--forv_kvn_bio--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "forv_kvn_bio"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--forv_man--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--forv_man--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "forv_man"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--forv_man_bio--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--forv_man_bio--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "forv_man_bio"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--forv_to--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--forv_to--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "forv_to"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--forv_tot_bio--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--forv_tot_bio--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "forv_tot_bio"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--fv--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--fv--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "fv"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--g_forsk--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--g_forsk--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "g_forsk"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--g_forsk_felmarg--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--g_forsk_felmarg--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "g_forsk_felmarg"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ghg_kilo--by--sni_id--amnemiljo_id--year",
+            "path": "multidimensional\\ddf--datapoints--ghg_kilo--by--sni_id--amnemiljo_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "amnemiljo_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ghg_kilo"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "amnemiljo_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ghg_kilo--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ghg_kilo--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ghg_kilo"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ghg_utslapp_prod--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ghg_utslapp_prod--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ghg_utslapp_prod"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--int_lop_kost_miljo--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--int_lop_kost_miljo--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "int_lop_kost_miljo"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--int_lop_kost_miljo_proc--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--int_lop_kost_miljo_proc--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "int_lop_kost_miljo_proc"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--inv_egen_fou--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--inv_egen_fou--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "inv_egen_fou"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--inv_miljo--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--inv_miljo--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "inv_miljo"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--kem_skatt--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--kem_skatt--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "kem_skatt"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--kem_tonne--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--kem_tonne--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "kem_tonne"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--koldi_skatt--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--koldi_skatt--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "koldi_skatt"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--koldi_utslapp--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--koldi_utslapp--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "koldi_utslapp"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lop_kost_miljosk--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--lop_kost_miljosk--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lop_kost_miljosk"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lop_kost_miljosk_proc--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--lop_kost_miljosk_proc--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lop_kost_miljosk_proc"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--miljoskydd_inv--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--miljoskydd_inv--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "miljoskydd_inv"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--miljoskydd_inv_proc--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--miljoskydd_inv_proc--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "miljoskydd_inv_proc"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--netto--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--netto--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "netto"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--netto_bio--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--netto_bio--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "netto_bio"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--nox_avgift--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--nox_avgift--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "nox_avgift"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ovr_miljoskatt--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ovr_miljoskatt--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ovr_miljoskatt"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--prod--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--prod--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "prod"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--res_rakn--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--res_rakn--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "res_rakn"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ror_egen_fou--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ror_egen_fou--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ror_egen_fou"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--sjalvfin_egen_fou--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--sjalvfin_egen_fou--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sjalvfin_egen_fou"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--syss_bel_kv--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--syss_bel_kv--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "syss_bel_kv"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--syss_bel_man--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--syss_bel_man--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "syss_bel_man"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--syss_bel_tot--by--sni_id--fodelseregion_id--year",
+            "path": "multidimensional\\ddf--datapoints--syss_bel_tot--by--sni_id--fodelseregion_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "fodelseregion_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "syss_bel_tot"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "fodelseregion_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--syss_bel_tot--by--sni_id--kon_id--year",
+            "path": "multidimensional\\ddf--datapoints--syss_bel_tot--by--sni_id--kon_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "kon_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "syss_bel_tot"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "kon_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--syss_bel_tot--by--sni_id--region_id--year",
+            "path": "multidimensional\\ddf--datapoints--syss_bel_tot--by--sni_id--region_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "region_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "syss_bel_tot"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "region_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--syss_bel_tot--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--syss_bel_tot--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "syss_bel_tot"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--syssels--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--syssels--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "syssels"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--tillamp_forsk--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--tillamp_forsk--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "tillamp_forsk"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--tillamp_forsk_felmarg--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--tillamp_forsk_felmarg--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "tillamp_forsk_felmarg"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--ton_kem--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--ton_kem--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ton_kem"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--tot_egen_fou--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--tot_egen_fou--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "tot_egen_fou"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--tot_egen_fou_felmarg--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--tot_egen_fou_felmarg--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "tot_egen_fou_felmarg"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--tot_miljoskydd--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--tot_miljoskydd--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "tot_miljoskydd"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--tot_miljoskydd_proc--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--tot_miljoskydd_proc--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "tot_miljoskydd_proc"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--tot_syssel_ex--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--tot_syssel_ex--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "tot_syssel_ex"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--tot_vatten--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--tot_vatten--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "tot_vatten"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--trafik_skatt--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--trafik_skatt--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "trafik_skatt"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--trangselskatt--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--trangselskatt--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "trangselskatt"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--uppd_egen_fou--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--uppd_egen_fou--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "uppd_egen_fou"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--utsl_skatt--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--utsl_skatt--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "utsl_skatt"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--utv_verk--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--utv_verk--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "utv_verk"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--utv_verk_felmarg--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--utv_verk_felmarg--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "utv_verk_felmarg"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--varuexp--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--varuexp--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "varuexp"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--varuimp--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--varuimp--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "varuimp"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--vaxthus_inb_prod--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--vaxthus_inb_prod--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "vaxthus_inb_prod"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--vaxthus_utslapp--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--vaxthus_utslapp--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "vaxthus_utslapp"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--vaxthusg--by--sni_id--year",
+            "path": "ddf--datapoints\\ddf--datapoints--vaxthusg--by--sni_id--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sni_id"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "vaxthusg"
+                    }
+                ],
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ]
+            }
+        }
+    ],
+    "ddfSchema": {
+        "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "concept_type",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "description",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "domain",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name_catalog",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name_short",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "source_url",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "tags",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "unit",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            }
+        ],
+        "entities": [
+            {
+                "primaryKey": [
+                    "amnemiljo_id"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--amnemiljo_id"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "avfallsslag_id"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--avfallsslag_id"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "fodelseregion_id"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--fodelseregion_id"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "is--sni_grupp",
+                "resources": [
+                    "ddf--entities--geog--sni_grupp"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "is--sni_id",
+                "resources": [
+                    "ddf--entities--geog--sni_id"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geog--sni_id",
+                    "ddf--entities--geog--sni_grupp"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog"
+                ],
+                "value": "rank",
+                "resources": [
+                    "ddf--entities--geog--sni_grupp"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kon_id"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--kon_id"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "miljoomrade_id"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--miljoomrade_id"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "ofarligtfarligt_id"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--ofarligtfarligt_id"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "region_id"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--region_id"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_grupp"
+                ],
+                "value": "is--sni_grupp",
+                "resources": [
+                    "ddf--entities--geog--sni_grupp"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_grupp"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geog--sni_grupp"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_grupp"
+                ],
+                "value": "rank",
+                "resources": [
+                    "ddf--entities--geog--sni_grupp"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id"
+                ],
+                "value": "is--sni_id",
+                "resources": [
+                    "ddf--entities--geog--sni_id"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geog--sni_id"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "tag"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--tag"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "tag"
+                ],
+                "value": "parent",
+                "resources": [
+                    "ddf--entities--tag"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "typanv_id"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--typanv_id"
+                ]
+            }
+        ],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "amnemiljo_id",
+                    "geog",
+                    "year"
+                ],
+                "value": "ghg_kilo",
+                "resources": [
+                    "ddf--datapoints--ghg_kilo--by--sni_id--amnemiljo_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "amnemiljo_id",
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ghg_kilo",
+                "resources": [
+                    "ddf--datapoints--ghg_kilo--by--sni_id--amnemiljo_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "fodelseregion_id",
+                    "geog",
+                    "year"
+                ],
+                "value": "syss_bel_tot",
+                "resources": [
+                    "ddf--datapoints--syss_bel_tot--by--sni_id--fodelseregion_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "fodelseregion_id",
+                    "sni_id",
+                    "year"
+                ],
+                "value": "syss_bel_tot",
+                "resources": [
+                    "ddf--datapoints--syss_bel_tot--by--sni_id--fodelseregion_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "and_forb_inv",
+                "resources": [
+                    "ddf--datapoints--and_forb_inv--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "and_milj_ex",
+                "resources": [
+                    "ddf--datapoints--and_milj_ex--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "and_milj_tot",
+                "resources": [
+                    "ddf--datapoints--and_milj_tot--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ant_ans_kon",
+                "resources": [
+                    "ddf--datapoints--ant_ans_kon--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ant_for_tot",
+                "resources": [
+                    "ddf--datapoints--ant_for_tot--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ant_forv_kvn_reg",
+                "resources": [
+                    "ddf--datapoints--ant_forv_kvn_reg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ant_forv_man_reg",
+                "resources": [
+                    "ddf--datapoints--ant_forv_man_reg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ant_forv_tot_reg",
+                "resources": [
+                    "ddf--datapoints--ant_forv_tot_reg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ant_kem",
+                "resources": [
+                    "ddf--datapoints--ant_kem--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ant_kon",
+                "resources": [
+                    "ddf--datapoints--ant_kon--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ant_ny",
+                "resources": [
+                    "ddf--datapoints--ant_ny--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ant_syss_miljo",
+                "resources": [
+                    "ddf--datapoints--ant_syss_miljo--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "arb_tim",
+                "resources": [
+                    "ddf--datapoints--arb_tim--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "behand_inv",
+                "resources": [
+                    "ddf--datapoints--behand_inv--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "behand_inv_proc",
+                "resources": [
+                    "ddf--datapoints--behand_inv_proc--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "bidr_egen_fou",
+                "resources": [
+                    "ddf--datapoints--bidr_egen_fou--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "bnp_fast",
+                "resources": [
+                    "ddf--datapoints--bnp_fast--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "bnp_lop",
+                "resources": [
+                    "ddf--datapoints--bnp_lop--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "bran_energi",
+                "resources": [
+                    "ddf--datapoints--bran_energi--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "co_skatt",
+                "resources": [
+                    "ddf--datapoints--co_skatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "el_energi",
+                "resources": [
+                    "ddf--datapoints--el_energi--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "export",
+                "resources": [
+                    "ddf--datapoints--export--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ext_lop_kost_miljo",
+                "resources": [
+                    "ddf--datapoints--ext_lop_kost_miljo--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ext_lop_kost_miljo_proc",
+                "resources": [
+                    "ddf--datapoints--ext_lop_kost_miljo_proc--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "flygskatt",
+                "resources": [
+                    "ddf--datapoints--flygskatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "foradl",
+                "resources": [
+                    "ddf--datapoints--foradl--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "foradl_bio",
+                "resources": [
+                    "ddf--datapoints--foradl_bio--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "forb_fos",
+                "resources": [
+                    "ddf--datapoints--forb_fos--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "forb_inv_milj",
+                "resources": [
+                    "ddf--datapoints--forb_inv_milj--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "forbr_bio",
+                "resources": [
+                    "ddf--datapoints--forbr_bio--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "fordonskatt",
+                "resources": [
+                    "ddf--datapoints--fordonskatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "foreb_inv",
+                "resources": [
+                    "ddf--datapoints--foreb_inv--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "forv_kvn",
+                "resources": [
+                    "ddf--datapoints--forv_kvn--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "forv_kvn_bio",
+                "resources": [
+                    "ddf--datapoints--forv_kvn_bio--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "forv_man",
+                "resources": [
+                    "ddf--datapoints--forv_man--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "forv_man_bio",
+                "resources": [
+                    "ddf--datapoints--forv_man_bio--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "forv_to",
+                "resources": [
+                    "ddf--datapoints--forv_to--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "forv_tot_bio",
+                "resources": [
+                    "ddf--datapoints--forv_tot_bio--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "fv",
+                "resources": [
+                    "ddf--datapoints--fv--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "g_forsk",
+                "resources": [
+                    "ddf--datapoints--g_forsk--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "g_forsk_felmarg",
+                "resources": [
+                    "ddf--datapoints--g_forsk_felmarg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ghg_kilo",
+                "resources": [
+                    "ddf--datapoints--ghg_kilo--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ghg_utslapp_prod",
+                "resources": [
+                    "ddf--datapoints--ghg_utslapp_prod--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "int_lop_kost_miljo",
+                "resources": [
+                    "ddf--datapoints--int_lop_kost_miljo--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "int_lop_kost_miljo_proc",
+                "resources": [
+                    "ddf--datapoints--int_lop_kost_miljo_proc--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "inv_egen_fou",
+                "resources": [
+                    "ddf--datapoints--inv_egen_fou--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "inv_miljo",
+                "resources": [
+                    "ddf--datapoints--inv_miljo--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "kem_skatt",
+                "resources": [
+                    "ddf--datapoints--kem_skatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "kem_tonne",
+                "resources": [
+                    "ddf--datapoints--kem_tonne--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "koldi_skatt",
+                "resources": [
+                    "ddf--datapoints--koldi_skatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "koldi_utslapp",
+                "resources": [
+                    "ddf--datapoints--koldi_utslapp--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "lop_kost_miljosk",
+                "resources": [
+                    "ddf--datapoints--lop_kost_miljosk--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "lop_kost_miljosk_proc",
+                "resources": [
+                    "ddf--datapoints--lop_kost_miljosk_proc--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "miljoskydd_inv",
+                "resources": [
+                    "ddf--datapoints--miljoskydd_inv--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "miljoskydd_inv_proc",
+                "resources": [
+                    "ddf--datapoints--miljoskydd_inv_proc--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "netto",
+                "resources": [
+                    "ddf--datapoints--netto--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "netto_bio",
+                "resources": [
+                    "ddf--datapoints--netto_bio--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "nox_avgift",
+                "resources": [
+                    "ddf--datapoints--nox_avgift--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ovr_miljoskatt",
+                "resources": [
+                    "ddf--datapoints--ovr_miljoskatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "prod",
+                "resources": [
+                    "ddf--datapoints--prod--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "res_rakn",
+                "resources": [
+                    "ddf--datapoints--res_rakn--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ror_egen_fou",
+                "resources": [
+                    "ddf--datapoints--ror_egen_fou--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "sjalvfin_egen_fou",
+                "resources": [
+                    "ddf--datapoints--sjalvfin_egen_fou--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "syss_bel_kv",
+                "resources": [
+                    "ddf--datapoints--syss_bel_kv--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "syss_bel_man",
+                "resources": [
+                    "ddf--datapoints--syss_bel_man--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "syss_bel_tot",
+                "resources": [
+                    "ddf--datapoints--syss_bel_tot--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "syssels",
+                "resources": [
+                    "ddf--datapoints--syssels--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "tillamp_forsk",
+                "resources": [
+                    "ddf--datapoints--tillamp_forsk--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "tillamp_forsk_felmarg",
+                "resources": [
+                    "ddf--datapoints--tillamp_forsk_felmarg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "ton_kem",
+                "resources": [
+                    "ddf--datapoints--ton_kem--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "tot_egen_fou",
+                "resources": [
+                    "ddf--datapoints--tot_egen_fou--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "tot_egen_fou_felmarg",
+                "resources": [
+                    "ddf--datapoints--tot_egen_fou_felmarg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "tot_miljoskydd",
+                "resources": [
+                    "ddf--datapoints--tot_miljoskydd--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "tot_miljoskydd_proc",
+                "resources": [
+                    "ddf--datapoints--tot_miljoskydd_proc--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "tot_syssel_ex",
+                "resources": [
+                    "ddf--datapoints--tot_syssel_ex--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "tot_vatten",
+                "resources": [
+                    "ddf--datapoints--tot_vatten--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "trafik_skatt",
+                "resources": [
+                    "ddf--datapoints--trafik_skatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "trangselskatt",
+                "resources": [
+                    "ddf--datapoints--trangselskatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "uppd_egen_fou",
+                "resources": [
+                    "ddf--datapoints--uppd_egen_fou--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "utsl_skatt",
+                "resources": [
+                    "ddf--datapoints--utsl_skatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "utv_verk",
+                "resources": [
+                    "ddf--datapoints--utv_verk--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "utv_verk_felmarg",
+                "resources": [
+                    "ddf--datapoints--utv_verk_felmarg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "varuexp",
+                "resources": [
+                    "ddf--datapoints--varuexp--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "varuimp",
+                "resources": [
+                    "ddf--datapoints--varuimp--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "vaxthus_inb_prod",
+                "resources": [
+                    "ddf--datapoints--vaxthus_inb_prod--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "vaxthus_utslapp",
+                "resources": [
+                    "ddf--datapoints--vaxthus_utslapp--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geog",
+                    "year"
+                ],
+                "value": "vaxthusg",
+                "resources": [
+                    "ddf--datapoints--vaxthusg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kon_id",
+                    "geog",
+                    "year"
+                ],
+                "value": "syss_bel_tot",
+                "resources": [
+                    "ddf--datapoints--syss_bel_tot--by--sni_id--kon_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kon_id",
+                    "sni_id",
+                    "year"
+                ],
+                "value": "syss_bel_tot",
+                "resources": [
+                    "ddf--datapoints--syss_bel_tot--by--sni_id--kon_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "region_id",
+                    "geog",
+                    "year"
+                ],
+                "value": "syss_bel_tot",
+                "resources": [
+                    "ddf--datapoints--syss_bel_tot--by--sni_id--region_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "region_id",
+                    "sni_id",
+                    "year"
+                ],
+                "value": "syss_bel_tot",
+                "resources": [
+                    "ddf--datapoints--syss_bel_tot--by--sni_id--region_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "and_forb_inv",
+                "resources": [
+                    "ddf--datapoints--and_forb_inv--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "and_milj_ex",
+                "resources": [
+                    "ddf--datapoints--and_milj_ex--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "and_milj_tot",
+                "resources": [
+                    "ddf--datapoints--and_milj_tot--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ant_ans_kon",
+                "resources": [
+                    "ddf--datapoints--ant_ans_kon--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ant_for_tot",
+                "resources": [
+                    "ddf--datapoints--ant_for_tot--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ant_forv_kvn_reg",
+                "resources": [
+                    "ddf--datapoints--ant_forv_kvn_reg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ant_forv_man_reg",
+                "resources": [
+                    "ddf--datapoints--ant_forv_man_reg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ant_forv_tot_reg",
+                "resources": [
+                    "ddf--datapoints--ant_forv_tot_reg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ant_kem",
+                "resources": [
+                    "ddf--datapoints--ant_kem--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ant_kon",
+                "resources": [
+                    "ddf--datapoints--ant_kon--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ant_ny",
+                "resources": [
+                    "ddf--datapoints--ant_ny--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ant_syss_miljo",
+                "resources": [
+                    "ddf--datapoints--ant_syss_miljo--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "arb_tim",
+                "resources": [
+                    "ddf--datapoints--arb_tim--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "behand_inv",
+                "resources": [
+                    "ddf--datapoints--behand_inv--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "behand_inv_proc",
+                "resources": [
+                    "ddf--datapoints--behand_inv_proc--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "bidr_egen_fou",
+                "resources": [
+                    "ddf--datapoints--bidr_egen_fou--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "bnp_fast",
+                "resources": [
+                    "ddf--datapoints--bnp_fast--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "bnp_lop",
+                "resources": [
+                    "ddf--datapoints--bnp_lop--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "bran_energi",
+                "resources": [
+                    "ddf--datapoints--bran_energi--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "co_skatt",
+                "resources": [
+                    "ddf--datapoints--co_skatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "el_energi",
+                "resources": [
+                    "ddf--datapoints--el_energi--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "export",
+                "resources": [
+                    "ddf--datapoints--export--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ext_lop_kost_miljo",
+                "resources": [
+                    "ddf--datapoints--ext_lop_kost_miljo--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ext_lop_kost_miljo_proc",
+                "resources": [
+                    "ddf--datapoints--ext_lop_kost_miljo_proc--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "flygskatt",
+                "resources": [
+                    "ddf--datapoints--flygskatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "foradl",
+                "resources": [
+                    "ddf--datapoints--foradl--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "foradl_bio",
+                "resources": [
+                    "ddf--datapoints--foradl_bio--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "forb_fos",
+                "resources": [
+                    "ddf--datapoints--forb_fos--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "forb_inv_milj",
+                "resources": [
+                    "ddf--datapoints--forb_inv_milj--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "forbr_bio",
+                "resources": [
+                    "ddf--datapoints--forbr_bio--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "fordonskatt",
+                "resources": [
+                    "ddf--datapoints--fordonskatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "foreb_inv",
+                "resources": [
+                    "ddf--datapoints--foreb_inv--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "forv_kvn",
+                "resources": [
+                    "ddf--datapoints--forv_kvn--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "forv_kvn_bio",
+                "resources": [
+                    "ddf--datapoints--forv_kvn_bio--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "forv_man",
+                "resources": [
+                    "ddf--datapoints--forv_man--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "forv_man_bio",
+                "resources": [
+                    "ddf--datapoints--forv_man_bio--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "forv_to",
+                "resources": [
+                    "ddf--datapoints--forv_to--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "forv_tot_bio",
+                "resources": [
+                    "ddf--datapoints--forv_tot_bio--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "fv",
+                "resources": [
+                    "ddf--datapoints--fv--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "g_forsk",
+                "resources": [
+                    "ddf--datapoints--g_forsk--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "g_forsk_felmarg",
+                "resources": [
+                    "ddf--datapoints--g_forsk_felmarg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ghg_kilo",
+                "resources": [
+                    "ddf--datapoints--ghg_kilo--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ghg_utslapp_prod",
+                "resources": [
+                    "ddf--datapoints--ghg_utslapp_prod--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "int_lop_kost_miljo",
+                "resources": [
+                    "ddf--datapoints--int_lop_kost_miljo--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "int_lop_kost_miljo_proc",
+                "resources": [
+                    "ddf--datapoints--int_lop_kost_miljo_proc--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "inv_egen_fou",
+                "resources": [
+                    "ddf--datapoints--inv_egen_fou--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "inv_miljo",
+                "resources": [
+                    "ddf--datapoints--inv_miljo--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "kem_skatt",
+                "resources": [
+                    "ddf--datapoints--kem_skatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "kem_tonne",
+                "resources": [
+                    "ddf--datapoints--kem_tonne--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "koldi_skatt",
+                "resources": [
+                    "ddf--datapoints--koldi_skatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "koldi_utslapp",
+                "resources": [
+                    "ddf--datapoints--koldi_utslapp--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "lop_kost_miljosk",
+                "resources": [
+                    "ddf--datapoints--lop_kost_miljosk--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "lop_kost_miljosk_proc",
+                "resources": [
+                    "ddf--datapoints--lop_kost_miljosk_proc--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "miljoskydd_inv",
+                "resources": [
+                    "ddf--datapoints--miljoskydd_inv--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "miljoskydd_inv_proc",
+                "resources": [
+                    "ddf--datapoints--miljoskydd_inv_proc--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "netto",
+                "resources": [
+                    "ddf--datapoints--netto--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "netto_bio",
+                "resources": [
+                    "ddf--datapoints--netto_bio--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "nox_avgift",
+                "resources": [
+                    "ddf--datapoints--nox_avgift--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ovr_miljoskatt",
+                "resources": [
+                    "ddf--datapoints--ovr_miljoskatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "prod",
+                "resources": [
+                    "ddf--datapoints--prod--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "res_rakn",
+                "resources": [
+                    "ddf--datapoints--res_rakn--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ror_egen_fou",
+                "resources": [
+                    "ddf--datapoints--ror_egen_fou--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "sjalvfin_egen_fou",
+                "resources": [
+                    "ddf--datapoints--sjalvfin_egen_fou--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "syss_bel_kv",
+                "resources": [
+                    "ddf--datapoints--syss_bel_kv--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "syss_bel_man",
+                "resources": [
+                    "ddf--datapoints--syss_bel_man--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "syss_bel_tot",
+                "resources": [
+                    "ddf--datapoints--syss_bel_tot--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "syssels",
+                "resources": [
+                    "ddf--datapoints--syssels--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "tillamp_forsk",
+                "resources": [
+                    "ddf--datapoints--tillamp_forsk--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "tillamp_forsk_felmarg",
+                "resources": [
+                    "ddf--datapoints--tillamp_forsk_felmarg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "ton_kem",
+                "resources": [
+                    "ddf--datapoints--ton_kem--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "tot_egen_fou",
+                "resources": [
+                    "ddf--datapoints--tot_egen_fou--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "tot_egen_fou_felmarg",
+                "resources": [
+                    "ddf--datapoints--tot_egen_fou_felmarg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "tot_miljoskydd",
+                "resources": [
+                    "ddf--datapoints--tot_miljoskydd--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "tot_miljoskydd_proc",
+                "resources": [
+                    "ddf--datapoints--tot_miljoskydd_proc--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "tot_syssel_ex",
+                "resources": [
+                    "ddf--datapoints--tot_syssel_ex--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "tot_vatten",
+                "resources": [
+                    "ddf--datapoints--tot_vatten--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "trafik_skatt",
+                "resources": [
+                    "ddf--datapoints--trafik_skatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "trangselskatt",
+                "resources": [
+                    "ddf--datapoints--trangselskatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "uppd_egen_fou",
+                "resources": [
+                    "ddf--datapoints--uppd_egen_fou--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "utsl_skatt",
+                "resources": [
+                    "ddf--datapoints--utsl_skatt--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "utv_verk",
+                "resources": [
+                    "ddf--datapoints--utv_verk--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "utv_verk_felmarg",
+                "resources": [
+                    "ddf--datapoints--utv_verk_felmarg--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "varuexp",
+                "resources": [
+                    "ddf--datapoints--varuexp--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "varuimp",
+                "resources": [
+                    "ddf--datapoints--varuimp--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "vaxthus_inb_prod",
+                "resources": [
+                    "ddf--datapoints--vaxthus_inb_prod--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "vaxthus_utslapp",
+                "resources": [
+                    "ddf--datapoints--vaxthus_utslapp--by--sni_id--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sni_id",
+                    "year"
+                ],
+                "value": "vaxthusg",
+                "resources": [
+                    "ddf--datapoints--vaxthusg--by--sni_id--year"
+                ]
+            }
+        ],
+        "synonyms": []
+    }
+}

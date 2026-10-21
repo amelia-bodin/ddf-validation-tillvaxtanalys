@@ -1,0 +1,15 @@
+tag,name,parent
+ekonomi,Ekonomi,
+eko_styr,Ekonomiska Styrmedel,
+invest,Investeringar,
+fou,Forskning och utveckling i Sverige (FoU),
+transp,Transportsektorn,spec_sek
+miljo_sek,Miljösektorn,spec_sek
+utslapp,Utsläpp,
+kompetens,Kompetens,
+produkter,Produkter,
+bioek,Bioekonomi,spec_sek
+energi,Energi,
+natur,Naturresurser,ovrig_tag
+handel,Handel,
+kategori,Kategori,

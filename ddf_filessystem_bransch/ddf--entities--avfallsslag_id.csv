@@ -1,0 +1,34 @@
+avfallsslag_id,name
+01_1,lösningsmedelavfall
+01_2,surt: alkaliskt eller salthaltigt avfall
+01_3,oljeavfall
+01_4_02_03_1,kemiska rester
+03_2,avloppsslam från industrier (torrvikt)
+03_3,slam och vätskor från avfallshantering (torrvikt)
+05,sjukvårdsavfall och biologiskt avfall
+06_1,metallavfall: ferromagnetiskt
+06_2,metallavfall: icke ferromagnetiskt
+06_3,blandade metaller
+07_1,glasavfall
+07_2,pappers- och pappavfall
+07_3,gummiavfall
+07_4,plastavfall
+07_5,träavfall
+07_6,textilavfall
+07_7,avfall innehållande PCB
+08_ex_08_1_41,kasserad utrustning (exkl. kasserade fordon: batterier och ackumulatorer)
+08_1,uttjänta fordon
+08_41,batterier och ackumulatorer
+09_1,animaliskt avfall och blandat matavfall
+09_2,vegetabiliskt avfall
+09_3,animalisk faeces: animalisk urin och gödsel
+10_1,hushållsavfall och liknande avfall
+10_2,blandade och ej differentierade material
+10_3,sorteringsrester
+11,vanligt slam (torrvikt)
+12_1,mineralavfall från bygg och rivning
+12_2_3_5,annat mineralavfall
+12_4,avfall från förbränning
+12_6,jord
+12_7,muddermassor (torrvikt)
+12_8_13,mineralavfall från avfallshantering
