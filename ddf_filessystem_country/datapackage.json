@@ -297,7 +297,7 @@
         },
         {
             "name": "ddf--datapoints--ae_cap_total--by--country--multidim_nace--year",
-            "path": "multidimensional\\ddf--datapoints--ae_cap_total--by--country--multidim_nace--year.csv",
+            "path": "multidimensional/ddf--datapoints--ae_cap_total--by--country--multidim_nace--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -322,7 +322,7 @@
         },
         {
             "name": "ddf--datapoints--ae_cap_total--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ae_cap_total--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ae_cap_total--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -343,7 +343,7 @@
         },
         {
             "name": "ddf--datapoints--ae_ton_total--by--country--multidim_nace--year",
-            "path": "multidimensional\\ddf--datapoints--ae_ton_total--by--country--multidim_nace--year.csv",
+            "path": "multidimensional/ddf--datapoints--ae_ton_total--by--country--multidim_nace--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -368,7 +368,7 @@
         },
         {
             "name": "ddf--datapoints--ae_ton_total--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ae_ton_total--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ae_ton_total--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -389,7 +389,7 @@
         },
         {
             "name": "ddf--datapoints--berd_fou--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--berd_fou--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--berd_fou--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -410,7 +410,7 @@
         },
         {
             "name": "ddf--datapoints--brutto_fast--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--brutto_fast--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--brutto_fast--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -431,7 +431,7 @@
         },
         {
             "name": "ddf--datapoints--brutto_lop--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--brutto_lop--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--brutto_lop--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -452,7 +452,7 @@
         },
         {
             "name": "ddf--datapoints--chain_out_air--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--chain_out_air--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--chain_out_air--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -473,7 +473,7 @@
         },
         {
             "name": "ddf--datapoints--chain_out_land--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--chain_out_land--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--chain_out_land--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -494,7 +494,7 @@
         },
         {
             "name": "ddf--datapoints--chain_out_transp--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--chain_out_transp--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--chain_out_transp--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -515,7 +515,7 @@
         },
         {
             "name": "ddf--datapoints--chain_out_water--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--chain_out_water--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--chain_out_water--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -536,7 +536,7 @@
         },
         {
             "name": "ddf--datapoints--chain_value_air--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--chain_value_air--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--chain_value_air--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -557,7 +557,7 @@
         },
         {
             "name": "ddf--datapoints--chain_value_land--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--chain_value_land--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--chain_value_land--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -578,7 +578,7 @@
         },
         {
             "name": "ddf--datapoints--chain_value_transp--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--chain_value_transp--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--chain_value_transp--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -599,7 +599,7 @@
         },
         {
             "name": "ddf--datapoints--chain_value_water--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--chain_value_water--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--chain_value_water--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -620,7 +620,7 @@
         },
         {
             "name": "ddf--datapoints--dev_inv_cap--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--dev_inv_cap--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--dev_inv_cap--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -641,7 +641,7 @@
         },
         {
             "name": "ddf--datapoints--emp_fte_air--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--emp_fte_air--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--emp_fte_air--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -662,7 +662,7 @@
         },
         {
             "name": "ddf--datapoints--emp_fte_land--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--emp_fte_land--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--emp_fte_land--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -683,7 +683,7 @@
         },
         {
             "name": "ddf--datapoints--emp_fte_water--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--emp_fte_water--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--emp_fte_water--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -704,7 +704,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_admin--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_admin--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_admin--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -725,7 +725,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_arts--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_arts--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_arts--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -746,7 +746,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_const--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_const--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_const--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -767,7 +767,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_edu--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_edu--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_edu--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -788,7 +788,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_elec--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_elec--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_elec--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -809,7 +809,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_finance--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_finance--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_finance--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -830,7 +830,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_food--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_food--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_food--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -851,7 +851,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_health--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_health--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_health--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -872,7 +872,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_info--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_info--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_info--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -893,7 +893,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_manu--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_manu--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_manu--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -914,7 +914,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_mine--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_mine--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_mine--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -935,7 +935,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_prof--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_prof--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_prof--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -956,7 +956,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_real--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_real--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_real--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -977,7 +977,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_retail--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_retail--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_retail--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -998,7 +998,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_transp--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_transp--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_transp--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1019,7 +1019,7 @@
         },
         {
             "name": "ddf--datapoints--ent_nr_water--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ent_nr_water--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ent_nr_water--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1040,7 +1040,7 @@
         },
         {
             "name": "ddf--datapoints--env_rnd--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--env_rnd--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--env_rnd--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1061,7 +1061,7 @@
         },
         {
             "name": "ddf--datapoints--env_tax_gdp--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--env_tax_gdp--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--env_tax_gdp--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1082,7 +1082,7 @@
         },
         {
             "name": "ddf--datapoints--env_tax_total--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--env_tax_total--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--env_tax_total--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1103,7 +1103,7 @@
         },
         {
             "name": "ddf--datapoints--exp_total--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--exp_total--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--exp_total--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1124,7 +1124,7 @@
         },
         {
             "name": "ddf--datapoints--foradl_fast_tot--by--country--multidim_nace--year",
-            "path": "multidimensional\\ddf--datapoints--foradl_fast_tot--by--country--multidim_nace--year.csv",
+            "path": "multidimensional/ddf--datapoints--foradl_fast_tot--by--country--multidim_nace--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1149,7 +1149,7 @@
         },
         {
             "name": "ddf--datapoints--foradl_fast_tot--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--foradl_fast_tot--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--foradl_fast_tot--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1170,7 +1170,7 @@
         },
         {
             "name": "ddf--datapoints--foradl_lop_tot--by--country--multidim_nace--year",
-            "path": "multidimensional\\ddf--datapoints--foradl_lop_tot--by--country--multidim_nace--year.csv",
+            "path": "multidimensional/ddf--datapoints--foradl_lop_tot--by--country--multidim_nace--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1195,7 +1195,7 @@
         },
         {
             "name": "ddf--datapoints--foradl_lop_tot--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--foradl_lop_tot--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--foradl_lop_tot--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1216,7 +1216,7 @@
         },
         {
             "name": "ddf--datapoints--ggas_cap_air--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ggas_cap_air--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ggas_cap_air--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1237,7 +1237,7 @@
         },
         {
             "name": "ddf--datapoints--ggas_cap_land--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ggas_cap_land--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ggas_cap_land--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1258,7 +1258,7 @@
         },
         {
             "name": "ddf--datapoints--ggas_cap_water--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--ggas_cap_water--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--ggas_cap_water--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1279,7 +1279,7 @@
         },
         {
             "name": "ddf--datapoints--imp_total--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--imp_total--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--imp_total--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1300,7 +1300,7 @@
         },
         {
             "name": "ddf--datapoints--kem_inb--by--country--bransch_id--year",
-            "path": "multidimensional\\ddf--datapoints--kem_inb--by--country--bransch_id--year.csv",
+            "path": "multidimensional/ddf--datapoints--kem_inb--by--country--bransch_id--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1325,7 +1325,7 @@
         },
         {
             "name": "ddf--datapoints--kem_inb--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--kem_inb--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--kem_inb--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1346,7 +1346,7 @@
         },
         {
             "name": "ddf--datapoints--loner_lop_tot--by--country--multidim_nace--year",
-            "path": "multidimensional\\ddf--datapoints--loner_lop_tot--by--country--multidim_nace--year.csv",
+            "path": "multidimensional/ddf--datapoints--loner_lop_tot--by--country--multidim_nace--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1371,7 +1371,7 @@
         },
         {
             "name": "ddf--datapoints--loner_lop_tot--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--loner_lop_tot--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--loner_lop_tot--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1392,7 +1392,7 @@
         },
         {
             "name": "ddf--datapoints--out_gdp_total--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--out_gdp_total--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--out_gdp_total--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1413,7 +1413,7 @@
         },
         {
             "name": "ddf--datapoints--out_mil_chain--by--country--multidim_nace--year",
-            "path": "multidimensional\\ddf--datapoints--out_mil_chain--by--country--multidim_nace--year.csv",
+            "path": "multidimensional/ddf--datapoints--out_mil_chain--by--country--multidim_nace--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1438,7 +1438,7 @@
         },
         {
             "name": "ddf--datapoints--out_mil_chain--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--out_mil_chain--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--out_mil_chain--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1459,7 +1459,7 @@
         },
         {
             "name": "ddf--datapoints--out_mil_current--by--country--multidim_nace--year",
-            "path": "multidimensional\\ddf--datapoints--out_mil_current--by--country--multidim_nace--year.csv",
+            "path": "multidimensional/ddf--datapoints--out_mil_current--by--country--multidim_nace--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1484,7 +1484,7 @@
         },
         {
             "name": "ddf--datapoints--out_mil_current--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--out_mil_current--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--out_mil_current--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1505,7 +1505,7 @@
         },
         {
             "name": "ddf--datapoints--total_ffuel_tax--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--total_ffuel_tax--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--total_ffuel_tax--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1526,7 +1526,7 @@
         },
         {
             "name": "ddf--datapoints--total_fte_agri--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--total_fte_agri--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--total_fte_agri--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1547,7 +1547,7 @@
         },
         {
             "name": "ddf--datapoints--total_fte_const--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--total_fte_const--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--total_fte_const--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1568,7 +1568,7 @@
         },
         {
             "name": "ddf--datapoints--total_fte_elec--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--total_fte_elec--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--total_fte_elec--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1589,7 +1589,7 @@
         },
         {
             "name": "ddf--datapoints--total_fte_mine--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--total_fte_mine--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--total_fte_mine--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1610,7 +1610,7 @@
         },
         {
             "name": "ddf--datapoints--total_fte_serv--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--total_fte_serv--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--total_fte_serv--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1631,7 +1631,7 @@
         },
         {
             "name": "ddf--datapoints--total_fte_total--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--total_fte_total--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--total_fte_total--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1652,7 +1652,7 @@
         },
         {
             "name": "ddf--datapoints--utslapp_anv--by--country--anv_omrade--year",
-            "path": "multidimensional\\ddf--datapoints--utslapp_anv--by--country--anv_omrade--year.csv",
+            "path": "multidimensional/ddf--datapoints--utslapp_anv--by--country--anv_omrade--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1677,7 +1677,7 @@
         },
         {
             "name": "ddf--datapoints--utslapp_anv--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--utslapp_anv--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--utslapp_anv--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1698,7 +1698,7 @@
         },
         {
             "name": "ddf--datapoints--utslapp_kons--by--country--bransch_id--year",
-            "path": "multidimensional\\ddf--datapoints--utslapp_kons--by--country--bransch_id--year.csv",
+            "path": "multidimensional/ddf--datapoints--utslapp_kons--by--country--bransch_id--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1723,7 +1723,7 @@
         },
         {
             "name": "ddf--datapoints--utslapp_kons--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--utslapp_kons--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--utslapp_kons--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1744,7 +1744,7 @@
         },
         {
             "name": "ddf--datapoints--utslapp_prod--by--country--bransch_id--year",
-            "path": "multidimensional\\ddf--datapoints--utslapp_prod--by--country--bransch_id--year.csv",
+            "path": "multidimensional/ddf--datapoints--utslapp_prod--by--country--bransch_id--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1769,7 +1769,7 @@
         },
         {
             "name": "ddf--datapoints--utslapp_prod--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--utslapp_prod--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--utslapp_prod--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1790,7 +1790,7 @@
         },
         {
             "name": "ddf--datapoints--val_chain_total--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--val_chain_total--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--val_chain_total--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1811,7 +1811,7 @@
         },
         {
             "name": "ddf--datapoints--val_gdp_total--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--val_gdp_total--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--val_gdp_total--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1832,7 +1832,7 @@
         },
         {
             "name": "ddf--datapoints--val_mil_agri--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--val_mil_agri--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--val_mil_agri--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1853,7 +1853,7 @@
         },
         {
             "name": "ddf--datapoints--val_mil_const--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--val_mil_const--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--val_mil_const--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1874,7 +1874,7 @@
         },
         {
             "name": "ddf--datapoints--val_mil_elec--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--val_mil_elec--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--val_mil_elec--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1895,7 +1895,7 @@
         },
         {
             "name": "ddf--datapoints--val_mil_mine--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--val_mil_mine--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--val_mil_mine--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1916,7 +1916,7 @@
         },
         {
             "name": "ddf--datapoints--val_mil_serv--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--val_mil_serv--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--val_mil_serv--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1937,7 +1937,7 @@
         },
         {
             "name": "ddf--datapoints--val_mil_total--by--country--year",
-            "path": "ddf--datapoints\\ddf--datapoints--val_mil_total--by--country--year.csv",
+            "path": "ddf--datapoints/ddf--datapoints--val_mil_total--by--country--year.csv",
             "schema": {
                 "fields": [
                     {
